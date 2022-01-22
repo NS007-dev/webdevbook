@@ -45,11 +45,13 @@ body{
 }
 
 table, th, td{
-    border: 1px solid blue;
+    border: 1px solid black;
     font-size: 20px;
-    border-radius: 6px;
-    width: 600px;
-    background-image: linear-gradient(yellow, cyan);
+}
+
+a {
+    text-decoration: none;
+    color: red;
 }
 
 .logo img{
