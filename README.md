@@ -1,2 +1,2 @@
-# webdevbook
-List of all the resources in 1 website!
+# WebDevBook!
+###### [See home page 🏠](https://codingspecies.github.io/webdevbook/index.html) | [Links Page 🔗](https://codingspecies.github.io/webdevbook/links.html) | [Code Equipment](https://codingspecies.github.io/webdevbook/codeequip.html) | [JS Links](https://codingspecies.github.io/webdevbook/js.html) | [HTML Links](https://codingspecies.github.io/webdevbook/html.html) | [CSS Links](https://codingspecies.github.io/webdevbook/css.html)
