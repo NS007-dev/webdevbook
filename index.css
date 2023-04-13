@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-image: linear-gradient(rgb(16, 78, 78), rgb(121, 121, 5));
+    background-color: #afadad;
 }
 
-.header{
+.header {
     padding: 30px;
-    background-image: linear-gradient(rgb(8, 196, 196), yellow);
+    background-image: linear-gradient(rgb(51, 87, 234), rgb(13, 5, 121));
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    color: white;
 }
 
-.header h1{
+.header h1 {
     font-size: 50px;
 }
 
-.topnav{
+.topnav {
     overflow: hidden;
     background-color: #333;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
-.topnav a{
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -39,50 +40,49 @@ body{
     text-decoration: none;
 }
 
-.topnav a:hover{
+.topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-
-.logo img{
+.logo img {
     width: 130px;
-    height:130px;
+    height: 130px;
     float: left;
-  }
+}
 
-.leftcolumn{
-    float:left;
+.leftcolumn {
+    float: left;
     width: 75%;
     border-radius: 25px;
 }
 
-.rightcolumn{
+.rightcolumn {
     float: left;
-    width:25%;
+    width: 25%;
     padding-left: 20px;
     border-radius: 25px;
 }
 
-img{
+img {
     width: 100%;
     padding: 20px;
 }
 
-.card{
+.card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
     border-radius: 25px;
 }
 
-.row:after{
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.footer{
+.footer {
     padding: 20px;
     text-align: center;
     background-color: #ddd;
@@ -90,15 +90,17 @@ img{
     border-radius: 25px;
 }
 
-@media screen and (max-width: 800px){
-    .leftcolumn, .rightcolumn{
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
         width: 100%;
         padding: 0;
     }
 }
 
-@media screen and (max-width: 400px){
-    .topnav a{
+@media screen and (max-width: 400px) {
+    .topnav a {
         float: none;
         width: 100%;
     }
